@@ -16,10 +16,11 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Flutter App"),
+          title: Text("Tally Reports"),
           centerTitle: true,
           actions: <Widget>[NavigationControls(_controller.future)],
         ),
+        drawer: Drawer(),
         // body: Builder(builder: (BuildContext context) {
         body: Builder(builder: (BuildContext context) {
           return WebView(

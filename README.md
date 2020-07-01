@@ -1,6 +1,6 @@
-# webview_flutter_app
+# Flutter Webview App
 
-A new Flutter project.
+This is a Flutter project using Webview to Display Tally Reports similar like a Browser functionality of Tally Reports .
 
 ## Getting Started
 
